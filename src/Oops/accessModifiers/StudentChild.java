@@ -1,4 +1,4 @@
-package accessModifiers;
+package Oops.accessModifiers;
 
 
 public class StudentChild extends Student {

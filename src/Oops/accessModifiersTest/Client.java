@@ -1,6 +1,6 @@
-package accessModifiersTest;
+package Oops.accessModifiersTest;
 
-import accessModifiers.Student;
+import Oops.accessModifiers.Student;
 
 public class Client {
     public static void main(String[] args) {

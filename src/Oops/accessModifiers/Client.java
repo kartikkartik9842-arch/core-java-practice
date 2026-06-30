@@ -1,4 +1,4 @@
-package accessModifiers;
+package Oops.accessModifiers;
 
 public class Client {
     public static void main(String[] args) {
