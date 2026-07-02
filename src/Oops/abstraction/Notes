@@ -1,0 +1,8 @@
+// An abstract class cannot be instantiated.
+
+// An abstract class can have both:
+// 1. Abstract methods (without implementation)
+// 2. Concrete methods (with implementation)
+
+// A subclass must implement all abstract methods,
+// otherwise the subclass must also be declared abstract.
