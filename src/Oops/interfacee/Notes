@@ -1,0 +1,14 @@
+// An interface defines a contract that implementing classes must follow.
+
+// A class uses the 'implements' keyword to implement an interface.
+
+// A class can implement multiple interfaces.
+
+// An interface cannot be instantiated.
+// Animal animal = new Animal(); // Not allowed
+
+// Interface variables are public, static, and final by default.
+
+// Interface methods are public and abstract by default (until Java 7).
+// Java 8 introduced default and static methods.
+// Java 9 introduced private methods inside interfa
