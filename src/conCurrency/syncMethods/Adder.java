@@ -1,6 +1,4 @@
-package conCurrency.syncBlock;
-
-import java.util.concurrent.locks.Lock;
+package conCurrency.syncMethods;
 
 public class Adder implements Runnable {
 
@@ -14,7 +12,9 @@ public class Adder implements Runnable {
     public void run() {
         // Incrementing the shared variable.
         for(int i=0; i<100000; i++){
-            count.incrVal(i);
+            synchronized (count){
+                count.val++;
+            }
         }
     }
 }
