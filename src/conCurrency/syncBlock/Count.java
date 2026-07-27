@@ -31,4 +31,8 @@ public class Count {
 // it does not need synchronization in this example.
 
 
-
+//T1	T2	Will it run in parallel?
+//c1.incVal()	c1.incVal()	❌ No
+//c1.incVal()	c1.decrVal()	❌ No
+//c1.incVal()	c1.getVal() (non-synchronized)	✅ Yes
+//c1.incVal()	c2.incVal()	✅ Yes
