@@ -1,7 +1,6 @@
-package oop.oopPracticeProject;
+package oop.oopPracticeProject.users;
 
 import java.util.Random;
-import java.util.random.RandomGenerator;
 
 public abstract class User {
     private String userId;
