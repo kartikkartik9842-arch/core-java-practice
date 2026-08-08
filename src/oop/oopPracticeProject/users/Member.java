@@ -16,6 +16,10 @@ public class Member extends User {
         return borrowedBooksCount;
     }
 
+    public void setBorrowedBooksCount(int borrowedBooksCount) {
+        this.borrowedBooksCount = borrowedBooksCount;
+    }
+
     @Override
     public void displayDashboard() {
         System.out.println("Member DashBoard");
