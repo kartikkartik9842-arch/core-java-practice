@@ -1,4 +1,4 @@
-package oop.oopPracticeProject;
+package oop.oopPracticeProject.Book;
 
 import oop.oopPracticeProject.users.User;
 
